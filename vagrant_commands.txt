@@ -1,0 +1,10 @@
+# Useful Vagrant commands
+
+# Trouble initializing system with "vagrant init" then "vagrant up" 
+# Solved by: https://stackoverflow.com/questions/23874260/error-when-trying-vagrant-up/45227911
+
+# So to correctly initialize system must include image name
+vagrant init hashicorp/precise32
+vagrant up
+vagrant ssh
+
