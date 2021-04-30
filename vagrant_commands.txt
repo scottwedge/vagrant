@@ -13,3 +13,20 @@ https://learn.hashicorp.com/collections/vagrant/getting-started
 
 # Vagrant help
 vagrant help
+
+# Found other vagrant images at: app.vagrantup.com/boxes/
+
+# Trouble downloading generic/ubunto2010 image - maybe ran out of space since got a popup warning
+that only 400 MB space was free?
+
+# To delete image to make room
+vagrant box help
+vagrant box remove -h
+vagrant box delete -h
+
+# found similarly named image in Downloads/64bit/ 
+
+# Then install virt-manager when warned that still had to manually delete the image
+but it does not connect to anything
+
+6817fb977db123986b0decac27afc9e32d184a48
