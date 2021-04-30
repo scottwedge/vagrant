@@ -29,4 +29,3 @@ vagrant box delete -h
 # Then install virt-manager when warned that still had to manually delete the image
 but it does not connect to anything
 
-6817fb977db123986b0decac27afc9e32d184a48
